@@ -23,6 +23,7 @@ Route::get('/charts', function()
 
 Route::get('/tables', function()
 {
+	/*$collage = DB::table('collages')->get();*/
 	return View::make('table');
 });
 
@@ -76,3 +77,5 @@ Route::get('/documentation', function()
 {
 	return View::make('documentation');
 });
+
+Route::resource('tables', 'CollagesController');

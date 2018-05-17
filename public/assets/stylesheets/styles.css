@@ -8938,4 +8938,18 @@ canvas.round {
         border-left-width: 0;
     }
 }
+thead {
+    background-color: #0db793;
+    color: white;
+    border: none;
+}
+table > tbody > tr:nth-child(even) {
+  background: #E0E0E0;
+}
+table > tbody > tr:nth-child(odd) {
+  background: #FFF;
+}
+table > tbody > tr > td{
+  border: none !important;
+}
 /*# sourceMappingURL=styles.css.map */
